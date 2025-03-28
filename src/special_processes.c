@@ -3,10 +3,10 @@
 
 // Special process 100: Change border color
 // Based on https://github.com/SkyTemple/eos-move-effects/blob/master/example/process/set_frame_color.asm
-static int SpChangeBorderColor(short arg1) {
+/*static int SpChangeBorderColor(short arg1) {
   SetBothScreensWindowsColor(arg1);
   return 0;
-}
+}*/
 
 // Called for special process IDs 100 and greater.
 //
@@ -14,12 +14,9 @@ static int SpChangeBorderColor(short arg1) {
 // if the special process was handled.
 bool CustomScriptSpecialProcessCall(undefined4* unknown, uint32_t special_process_id, short arg1, short arg2, int* return_val) {
   switch (special_process_id) {
-    case 100:
+    /*case 100:
       *return_val = SpChangeBorderColor(arg1);
-      return true;
-
-    // Add your own SP's here...
-
+      return true;*/
     default:
       return false;
   }

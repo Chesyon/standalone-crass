@@ -4,7 +4,7 @@
 // Implements the "Body Press" move
 // Based on https://github.com/Adex-8x/EoS-ASM-Effects/blob/main/moves/gen8/body_press.asm
 // Deals damage based on the user's defense instead of attack stat
-static bool MoveBodyPress(struct entity *user, struct entity *target, struct move *move)
+/*static bool MoveBodyPress(struct entity *user, struct entity *target, struct move *move)
 {
   if (user->type == ENTITY_MONSTER)
   {
@@ -19,7 +19,7 @@ static bool MoveBodyPress(struct entity *user, struct entity *target, struct mov
     return dealt_damage;
   }
   return false;
-}
+}*/
 
 // Called when using moves. Should return true if a custom effect was applied.
 // This function is only called if the move doesn't fail due to a missing target
@@ -28,11 +28,11 @@ bool CustomApplyMoveEffect(
 {
   switch (data->move_id)
   {
-  case MOVE_SCRATCH:
+  /*case MOVE_SCRATCH:
     // Replace move 260 (Scratch) with custom Body Press effect
     data->out_dealt_damage = MoveBodyPress(user, target, move);
     // Return true to signal that we've handled the effect
-    return true;
+    return true;*/
   default:
     return false;
   }

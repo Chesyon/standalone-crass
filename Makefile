@@ -72,7 +72,7 @@ CFLAGS	:=	-g -Wall $(OPT_LEVEL) $(RELEASE_CONFIG) $(SP_EFFECT_COMPAT) \
 			-fmacro-prefix-map=$(realpath $(CURDIR)/..)=. \
 			$(ARCH)
 
-CFLAGS	+=	$(INCLUDE) -DARM9 -flto
+CFLAGS	+=	$(INCLUDE) -DARM9
 
 # Those are to be set by command line arguments.
 CFLAGS  +=  $(EXTRA_CFLAGS)
