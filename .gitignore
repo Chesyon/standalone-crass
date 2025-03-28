@@ -1,0 +1,11 @@
+/build
+/venv
+
+out.bin
+out.elf
+out.asm
+
+*.nds
+*.nds.skytemple
+
+symbols/generated_*.ld
