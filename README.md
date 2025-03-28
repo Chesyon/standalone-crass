@@ -1,3 +1,10 @@
+# Standalone Cancel Recover Acting Skip System (CRASS)
+This is a c-of-time repo with [Adex](https://github.com/Adex-8x)'s CRASS system, orginally designed for the [Explorers of Sky Archipelago](https://github.com/Chesyon/eos-archipelago-patches). I set up this repo to allow people to use CRASS without having to go through the hassle of trimming out the Archipelago specific content (which there is a lot of.) CRASS currently only supports EU ROMs.
+
+Details on usage of CRASS can be found in its [pull request](https://github.com/Chesyon/eos-archipelago-patches/pull/3).
+
+Below is the readme for c-of-time, which this repository is a fork of.
+
 # c-of-time
 
 ![c-of-time logo by Irdkwia](./cot-logo.png)
